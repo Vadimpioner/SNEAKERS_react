@@ -1,0 +1,60 @@
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+}
+
+button {
+    padding: 18px 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    outline: 0;
+    font-size: 16px;
+    background: #9DD558;
+    border-radius: 18px;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #e7f6ff;
+}
+
+* {
+    font-family: 'Inter', system-ui;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    padding-top: 50px;
+}
