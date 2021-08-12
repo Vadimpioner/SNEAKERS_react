@@ -2,7 +2,7 @@
     "name": "sneakers",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://yuribenjamin.github.io/my-app",
+    "homepage": "https://vadimpioner.github.io/SNEAKERS/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^11.2.7",
