@@ -48,7 +48,9 @@ function Card({
                         <img
                             className="heart"
                             onClick={onClickHeart}
-                            src={isLiked ? 'img/heart-active.svg' : 'img/heart.svg'}
+                            src={
+                                isLiked ? 'SNEAKERS/img/heart-active.svg' : 'SNEAKERS/img/heart.svg'
+                            }
                             alt="heart"
                         />
                     )}
@@ -63,7 +65,11 @@ function Card({
                             {onPluse && (
                                 <img
                                     onClick={onClickPluse}
-                                    src={isItemAdded(id) ? 'img/pluse-active.svg' : 'img/pluse.svg'}
+                                    src={
+                                        isItemAdded(id)
+                                            ? 'SNEAKERS/img/pluse-active.svg'
+                                            : 'SNEAKERS/img/pluse.svg'
+                                    }
                                     alt="Pluse"
                                 />
                             )}

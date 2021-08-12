@@ -128,7 +128,7 @@ function App() {
                 {/* смысл такой: если переменная cardOpened true мы рендерим Basket(корзина)если нет, то ничего не редерим(null). Так же в корзине имеется функция setCardOpened, которая при ее запуске меняет state переменной cardOpened(false) и соответвственно корзина закрывается */}
                 <div className="block">
                     <Header onClickCard={() => setCardOpened(true)} />
-                    <Route path="https://vadimpioner.github.io/SNEAKERS/" exact>
+                    <Route path="/" exact>
                         <Home
                             items={items}
                             cardItems={cardItems}

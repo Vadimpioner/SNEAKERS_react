@@ -44,7 +44,7 @@ function Basket({ closeBasket, onDelete, items = [] }) {
                         <img
                             onClick={closeBasket}
                             className="closeBasket"
-                            src="img/close.svg"
+                            src="SNEAKERS/img/close.svg"
                             alt="close"
                         />
                     </p>
@@ -60,7 +60,7 @@ function Basket({ closeBasket, onDelete, items = [] }) {
                                         </div>
                                         <img
                                             onClick={() => onDelete(obj.id)}
-                                            src="img/close.svg"
+                                            src="SNEAKERS/img/close.svg"
                                             alt="close"
                                         />
                                     </div>
@@ -81,7 +81,7 @@ function Basket({ closeBasket, onDelete, items = [] }) {
                                     onClick={onClickOrder}
                                     className="greenName">
                                     Оформить заказ
-                                    <img src="img/strelka.svg" alt="strelka" />
+                                    <img src="SNEAKERS/img/strelka.svg" alt="strelka" />
                                 </button>
                             </div>
                         </div>
@@ -93,7 +93,9 @@ function Basket({ closeBasket, onDelete, items = [] }) {
                                     ? `Ваш заказ  №${orderId} передан курьерской доставке`
                                     : 'Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ.'
                             }
-                            image={isOrderComplete ? 'img/done.png' : 'img/box.png'}
+                            image={
+                                isOrderComplete ? 'SNEAKERS/img/done.png' : 'SNEAKERS/img/box.png'
+                            }
                         />
                     )}
                 </div>
